@@ -3,7 +3,7 @@ require "#{File.dirname(__FILE__)}/spec_helper"
 describe "A Series" do
   already_run = false
 
-  it "can run a series" do
+  it "can run a series with the step output" do
     return if already_run
     already_run = true
     example_group = self.class
